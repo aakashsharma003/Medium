@@ -1,0 +1,25 @@
+{
+  "name": "@003xdevs/medium-commons",
+  "version": "1.0.0",
+  "description": "A basic package for medium zod validations",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zod validations",
+    "medium"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakashsharma003/Real-Time-Audio-Streamer.git"
+  },
+  "author": "Aakash Sharma <aakash6263264@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aakashsharma003/medium-common/issues"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}

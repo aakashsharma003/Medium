@@ -1,0 +1,24 @@
+name = "cloudflare-workers"
+compatibility_date = "2023-12-01"
+
+[vars]
+# Our Pool url for connecting to database 
+DATABASE_URL ="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMTJhMWQ0NTEtMDRmMC00NTY0LWE0MDEtNmE1MzNlYTRmYWVmIiwidGVuYW50X2lkIjoiMmMxNWNhOGViYmJhYzM1YTBhZDlmNDg5YjQ1Y2YzMzg3ZjExZjFiNmNmYmFlOTVjNWU5MmVlZTdkYzhhN2JmOCIsImludGVybmFsX3NlY3JldCI6ImJjNjA5YmY4LTQ4YWUtNDI2ZC1iOTc4LTRlZjQ5ZWEzNDUyNyJ9.mfCHqA1WE0ftkBPGvDxMzlIa2MAIvLYpoKtXQPyrVKI"
+
+JWT_SECRET = "aakashsharma003"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
