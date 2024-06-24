@@ -12,6 +12,8 @@ function App() {
     <Routes>
       <Route path='/signup' element={<Signup/>}></Route>
       <Route path='/signin' element={<Signin/>}></Route>
+      {/* todo : have to remove this instead of this we render a homepage */}
+      <Route path='/' element={<Signin/>}></Route>
       <Route path='/blogs' element={<Blogs/>}></Route>
       <Route path='/dashboard' element={<Dashboard/>}></Route>
       <Route path='/blogs:id' ></Route>
