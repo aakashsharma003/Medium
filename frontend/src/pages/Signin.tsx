@@ -23,7 +23,7 @@ const Signin = () => {
             </div>
           <Input type={"email"} label={"Email"} placeholder={"example@gmail.com"}/>
           <Input type={"password"} label={"Password"} placeholder={"ggterqbw5346"}/>
-        <Button innertext="Signin"onClick = {() => {navigate("/dashboard")}} style="bg-black text-white p-[1rem] md:p-[0.5rem] w-[100%] flex justify-center items-center rounded-md m-2"/>
+        <Button innertext="Signin" onClick = {() => {navigate("/dashboard")}} style="bg-black text-white p-[1rem] md:p-[0.5rem] w-[100%] flex justify-center items-center rounded-md m-2"/>
         
             </div>
         </div>
