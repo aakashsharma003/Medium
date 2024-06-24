@@ -18,7 +18,7 @@ const Signup = () => {
       <Input type={"text"} label={"Username"} placeholder={"Enter your name"}/>
       <Input type={"email"} label={"Email"} placeholder={"example@gmail.com"}/>
       <Input type={"password"} label={"Password"} placeholder={"ggterqbw5346"}/>
-    <Button innertext="Signup" style="bg-black text-white p-[1rem] md:p-[0.5rem] w-[100%] text-center rounded-md m-1"/>
+    <Button innertext="Signup" onClick={() => navigate("/dashboard")} style="bg-black text-white p-[1rem] md:p-[0.5rem] w-[100%] text-center rounded-md m-2 flex justify-center items-center"/>
     
         </div>
     </div>
