@@ -2,7 +2,7 @@
 
 const Profile = () => {
   return (
-    <div className="rounded-full bg-black text-white lg:w-[2rem] lg:h-[2rem] text-center p-1">U</div>
+    <div className="rounded-full bg-black flex justify-center items-center  text-center  w-full h-full text-white">U</div>
   )
 }
 

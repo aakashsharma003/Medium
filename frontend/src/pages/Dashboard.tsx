@@ -1,4 +1,5 @@
-import { Appbar } from "../components/Appbar";
+
+import Appbar from "../components/Appbar";
 import { Article } from "../components/Articles";
 import { Button } from "../components/Button";
 import Card from "../components/Card";
@@ -182,14 +183,14 @@ export const Dashboard = () => {
       </div>
 
       <div className="lg:w-[78%] flex justify-between items-center flex-col">
-        <Appbar />
+        <Appbar dashboard={true}/>
         <div className="w-full  m-[1%] h-full flex justify-between flex-col p-[2%] rounded-md border border-gray-200">
           <div className="font-bold text-md md:text-xl lg:text-2xl m-1 mb-4">
             New Post
           </div>
           <Input type="text" label="" placeholder="Title" />
           <textarea
-            placeholder="Content"
+            placeholder="tell your story..."
             className="p-[1rem] md:p-[0.5rem] w-full rounded-md border border-gray-200 m-1 h-[25rem] "
           ></textarea>
           <div className="w-[15rem] flex justify-between items-center">
