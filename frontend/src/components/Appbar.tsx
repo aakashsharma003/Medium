@@ -1,13 +1,14 @@
 import Button from "./Button";
 import Profile from "./Profile";
 import { Searchbar } from "./Searchbar";
-
+import { useNavigate } from "react-router-dom";
 interface Appbar {
   dashboard: boolean;
   style?: string;
 }
 
 const Appbar = ({ dashboard, style }: Appbar) => {
+    const navigate = useNavigate()
   return (
     <>
       {dashboard && (
@@ -32,7 +33,7 @@ const Appbar = ({ dashboard, style }: Appbar) => {
             <Searchbar />
           </div>
 
-          <Button innertext="Signin" style="bg-white text-black rounded-md p-2" />
+          <Button innertext="Signin" onClick={() => navigate("/signin")} style="bg-white text-black rounded-md p-2" />
         </div>
       )}
     </>
