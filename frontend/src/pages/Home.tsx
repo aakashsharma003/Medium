@@ -10,7 +10,7 @@ const Home = () => {
         style="bg-black flex w-full text-white justify-between items-center p-4 sticky top-0"
       />
       <div className="flex w-screen">
-        <div className="bg-[#f4f4f5] w-[50%] h-[95vh] p-[5%] flex items-center justify-center flex-col sticky top-[12vh]">
+        <div className="bg-[#f4f4f5] w-[50%] h-[95vh] p-[5%] flex items-center justify-center flex-col sticky top-[12vh] -z-10">
           <div className="font-bold text-base md:text-xl lg:text-3xl capitalize italic">
             "Writing is the painting of the voice."
           </div>
